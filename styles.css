@@ -1,0 +1,42 @@
+.series {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.serie {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.serie img {
+    width: 100%;
+    height: auto;
+}
+
+.serie h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.serie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.serie ul li {
+    margin: 5px 0;
+}
+
+.serie p {
+    padding: 0 15px 15px;
+    font-size: 0.9rem;
+    color: #555;
+}
